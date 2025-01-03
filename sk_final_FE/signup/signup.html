@@ -1,0 +1,162 @@
+<!-- 초기 회원가입 화면인데 로컬 로그인 없이 구글 로그인만 하기로 해서 이것도 아마 안 쓰일 예정...-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup_style.css" />
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      menu,
+      ol,
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="sign-up">
+      <div class="bg">
+        <div class="rectangle-4"></div>
+        <div class="logo">
+          <div class="bala">FinPilot</div>
+          <div class="div">.</div>
+        </div>
+        <div class="welcome-start-your-journey-now-with-our-management-system">
+          Welcome.
+          <br />
+          Start your journey now with our management system!
+        </div>
+        <div class="frame-32">
+          <div class="ellipse-1"></div>
+          <div class="ellipse-2"></div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="frame-10">
+          <div class="title">Create an account</div>
+        </div>
+        <div class="frame-18">
+          <div class="frame-26">
+            <div class="frame-27">
+              <div class="email">Email</div>
+            </div>
+            <div class="frame-17">
+              <div class="input-text">
+                <div class="context">FinPilot@gmail.com</div>
+                <div class="frame-12"></div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-28">
+            <div class="frame-272">
+              <div class="password">Password</div>
+            </div>
+            <div class="input">
+              <div class="input-text2">
+                <div class="context2">Enter your password</div>
+                <div class="frame-12">
+                  <svg
+                    class="icon-eye"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 5.25C4.5 5.25 1.5 12 1.5 12C1.5 12 4.5 18.75 12 18.75C19.5 18.75 22.5 12 22.5 12C22.5 12 19.5 5.25 12 5.25Z"
+                      stroke="#98A2B3"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75Z"
+                      stroke="#98A2B3"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-30">
+          <div class="button">
+            <div class="login-now">Create account</div>
+          </div>
+          <div class="button2">
+            <svg
+              class="icon-google-original"
+              width="21"
+              height="20"
+              viewBox="0 0 21 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_510_325)">
+                <path
+                  d="M20.305 10.2303C20.305 9.55056 20.2499 8.86711 20.1323 8.19836H10.7V12.0492H16.1014C15.8773 13.2911 15.1571 14.3898 14.1025 15.0879V17.5866H17.325C19.2173 15.8449 20.305 13.2728 20.305 10.2303Z"
+                  fill="#4285F4"
+                />
+                <path
+                  d="M10.6999 20.0006C13.397 20.0006 15.6714 19.1151 17.3286 17.5865L14.1061 15.0879C13.2096 15.6979 12.0521 16.0433 10.7036 16.0433C8.09474 16.0433 5.88272 14.2832 5.08904 11.9169H1.76367V14.4927C3.46127 17.8695 6.91892 20.0006 10.6999 20.0006Z"
+                  fill="#34A853"
+                />
+                <path
+                  d="M5.0854 11.9169C4.66651 10.675 4.66651 9.33014 5.0854 8.08818V5.51239H1.7637C0.345367 8.33804 0.345367 11.6671 1.7637 14.4927L5.0854 11.9169Z"
+                  fill="#FBBC04"
+                />
+                <path
+                  d="M10.6999 3.95805C12.1256 3.936 13.5035 4.47247 14.536 5.45722L17.3911 2.60218C15.5833 0.904587 13.1838 -0.0287217 10.6999 0.000673888C6.91892 0.000673888 3.46126 2.13185 1.76367 5.51234L5.08537 8.08813C5.87537 5.71811 8.09106 3.95805 10.6999 3.95805Z"
+                  fill="#EA4335"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_510_325">
+                  <rect
+                    width="20"
+                    height="20"
+                    fill="white"
+                    transform="translate(0.5)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="login-now2">Continue with Google</div>
+          </div>
+          <div class="frame-29">
+            <div class="already-have-an-account">Already have an account?</div>
+            <button onclick="window.location.href='http://localhost:8000/login/login.html'"><div class="log-in">Log in</div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

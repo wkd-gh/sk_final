@@ -1,0 +1,128 @@
+.start,
+.start * {
+  box-sizing: border-box;
+}
+.start {
+  background: #050a24;
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 80px;
+  top: 64px;
+}
+.bala {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-BoldItalic", sans-serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  color: #007dfa;
+  text-align: left;
+  font-family: "Poppins-BoldItalic", sans-serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bg {
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-1 {
+  background: #2d55fb;
+  border-radius: 50%;
+  width: 379px;
+  height: 379px;
+  position: absolute;
+  left: 0px;
+  top: 898px;
+  filter: blur(275px);
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 993px;
+  height: 197px;
+  position: absolute;
+  left: 267px;
+  top: 130px;
+}
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 68px;
+  line-height: 100%;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-30 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 396px;
+  position: absolute;
+  left: 566px;
+  top: 390px;
+}
+.button {
+  background: var(--container-primary, #4F7CD0);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 285px;
+  height: 80px;
+  position: relative;
+}
+.google-docs {
+  color: var(--foreground-oncolor, #fcfcfd);
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 21px;
+  line-height: 100%;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

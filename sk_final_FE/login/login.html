@@ -1,0 +1,120 @@
+<!-- 초기 로그인 화면인데 로컬 로그인 없이 구글 로그인만 하기로 해서 이것도 아마 안 쓰일 예정...-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./login_style.css" />
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      menu,
+      ol,
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="log-in">
+      <div class="logo">
+        <div class="bala">FinPilot</div>
+        <div class="div">.</div>
+      </div>
+      <div class="bg">
+        <div class="ellipse-1"></div>
+        <div class="ellipse-2"></div>
+      </div>
+      <div class="form">
+        <div class="frame-10">
+          <div class="title">Login to your account</div>
+        </div>
+        <div class="frame-18">
+          <div class="frame-26">
+            <div class="frame-27">
+              <div class="email">Email</div>
+            </div>
+            <div class="frame-17">
+              <div class="input-text">
+                <div class="context">FinPilot@gmail.com</div>
+                <div class="frame-12"></div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-28">
+            <div class="frame-272">
+              <div class="password">Password</div>
+              <button onclick="window.location.href='http://localhost:8000/forgot/forgot.html'"><div class="forgot">Forgot？</div></button>
+            </div>
+            <div class="input">
+              <div class="input-text2">
+                <div class="context2">Enter your password</div>
+                <div class="frame-12">
+                  <svg
+                    class="icon-eye"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 5.25C4.5 5.25 1.5 12 1.5 12C1.5 12 4.5 18.75 12 18.75C19.5 18.75 22.5 12 22.5 12C22.5 12 19.5 5.25 12 5.25Z"
+                      stroke="#98A2B3"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 15.75C14.0711 15.75 15.75 14.0711 15.75 12C15.75 9.92893 14.0711 8.25 12 8.25C9.92893 8.25 8.25 9.92893 8.25 12C8.25 14.0711 9.92893 15.75 12 15.75Z"
+                      stroke="#98A2B3"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-30">
+          <div class="button">
+            <!-- <div class="login-now">Login now</div> -->
+            <button onclick="window.location.href='C:/sk_bootcamp/sk_pjt_final/final_html_first/main/main1/main1.html'"><div class="login-now">Login now</div></button>
+          </div>
+          <div class="frame-29">
+            <div class="don-t-have-an-account">
+              Don&#039;t have an account ?
+            </div>
+            <!-- <div class="sign-up">Sign up</div> -->
+            <button onclick="window.location.href='http://localhost:8000/signup/signup.html'"><div class="sign-up">Sign up</div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

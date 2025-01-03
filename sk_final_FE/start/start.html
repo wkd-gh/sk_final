@@ -1,0 +1,65 @@
+<!-- 구글 로그인을 성공하면 나오는 페이지 여기서 구글 docs실행 버튼을 누르면 구글 docs 실행 (페이지 멘트도 논의 후 수정하던가 해야할 듯) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./start.css" />
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+
+      menu,
+      ol,
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>Start</title>
+  </head>
+  <body>
+    <div class="start">
+      <div class="logo">
+        <div class="bala">FinPilot</div>
+        <div class="div">.</div>
+      </div>
+      <div class="bg">
+        <div class="ellipse-1"></div>
+        <div class="frame-10">
+          <div class="title">
+            Your Google Docs
+            <br />
+            experience will never be the
+            <br />
+            same
+          </div>
+        </div>
+        <div class="frame-30">
+          <div class="button">
+            <button onclick="window.location.href='https://docs.google.com'"><div class="google-docs">Try it in Google Docs</div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

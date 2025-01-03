@@ -1,0 +1,208 @@
+.login-2,
+.login-2 * {
+  box-sizing: border-box;
+}
+.login-2 {
+  background: var(--background-mode, #ffffff);
+  height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+.bg {
+  width: 720px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-4 {
+  background: linear-gradient(to left, #050a24, #050a24),
+    linear-gradient(to left, #d9d9d9, #d9d9d9);
+  width: 720px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 80px;
+  top: 64px;
+}
+.bala {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-BoldItalic", sans-serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  color: #007dfa;
+  text-align: left;
+  font-family: "Poppins-BoldItalic", sans-serif;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcome-start-your-journey-now-with-our-management-system {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.44) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Poppins-LightItalic", sans-serif;
+  font-size: 50px;
+  line-height: 120%;
+  font-weight: 300;
+  font-style: italic;
+  position: absolute;
+  left: 80px;
+  top: 420px;
+  width: 568px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-32 {
+  width: 720px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: #2d55fb;
+  border-radius: 50%;
+  width: 379px;
+  height: 379px;
+  position: absolute;
+  left: 0px;
+  top: 765px;
+  filter: blur(275px);
+}
+.ellipse-2 {
+  background: #2d55fb;
+  border-radius: 50%;
+  width: 379px;
+  height: 379px;
+  position: absolute;
+  left: 585px;
+  top: -136px;
+  filter: blur(275px);
+}
+.group-61 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-13 {
+  background: #ffffff;
+  border-radius: 40px;
+  width: 539px;
+  height: 500px;
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
+}
+.group-49 {
+  width: 215px;
+  height: 23.45px;
+  position: static;
+}
+.welcome-to-fin-pilot {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 890px;
+  top: 130px;
+  width: 215px;
+  height: 23.45px;
+}
+.welcome-to-fin-pilot-span {
+  color: #000000;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+.welcome-to-fin-pilot-span2 {
+  color: #0089ed;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+.join-fin-pilot-for-free-ai-powered-tools-seamless-google-docs-integration-and-enhanced-productivity {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  /* font-weight: 500; */
+  position: absolute;
+  left: 890px;
+  top: 200px;
+  width: 457px;
+  height: 140.7px;
+}
+.button {
+  background: #e9f1ff;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 48px;
+  position: absolute;
+  left: 922px;
+  top: 490px;
+}
+.icon-google-original {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.login-now {
+  color: var(--foreground-primary, #1570ef);
+  text-align: left;
+  font-family: var(
+    --body-large-semibold-font-family,
+    "Poppins-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-large-semibold-font-size, 16px);
+  line-height: var(--body-large-semibold-line-height, 100%);
+  font-weight: var(--body-large-semibold-font-weight, 600);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

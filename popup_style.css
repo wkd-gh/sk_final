@@ -1,0 +1,107 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    width: 800px; /* 최대 너비 */
+    height: 600px; /* 최대 높이 */
+  }
+  
+  /* 팝업 컨테이너 */
+  #popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px; /* 최대 너비 */
+    height: 600px; /* 최대 높이 */
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow-y: auto; /* 스크롤 가능 (세로만 활성화) */
+    overflow-x: hidden; /* 가로 스크롤 제거 */
+    box-sizing: border-box;
+  }
+  
+  /* 팝업 내용 */
+  .popup-content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 스크롤바 숨기기 (필요할 경우) */
+  #popup::-webkit-scrollbar {
+    width: 0px; /* 스크롤바 너비 제거 */
+    background: transparent; /* 배경 제거 */
+  }
+  
+  #popup-content {
+    overflow: auto; /* 스크롤 활성화 */
+  }
+  
+  .popup-content h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .popup-content h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .popup-content p,
+  .popup-content ul li,
+  .popup-content ol li {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .popup-content ul,
+  .popup-content ol {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .popup-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content ol li {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* 반응형 스타일 (작은 화면에서 조정) */
+  @media (max-width: 768px) {
+    #popup {
+      width: 100%;
+      height: auto;
+      max-height: 90%;
+    }
+  
+    .popup-content h2 {
+      font-size: 20px;
+    }
+  
+    .popup-content h3 {
+      font-size: 18px;
+    }
+  
+    .popup-content p,
+    .popup-content ul li,
+    .popup-content ol li {
+      font-size: 14px;
+    }
+  }
+  
